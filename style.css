@@ -21,3 +21,24 @@ ul {
     gap: 10px;
 
 }
+.one {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+}
+button{
+    background-color: #3882f6;
+    width: 80px;
+
+}
+img {
+    height: 200px;
+    width: 400px;
+}
