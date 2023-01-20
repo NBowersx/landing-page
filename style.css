@@ -11,7 +11,7 @@
     background-color: #1f2937;
     align-items: center;
     justify-content: space-between;
-    padding: 8px;
+    padding: 40px;
 }
 
 ul {
@@ -42,7 +42,22 @@ button{
     height: 200px;
     width: 400px;
 }
+
+.second {
+    background-color: #ce0808;
+    display: flex;
+    color: black;
+    padding: 40px;
+
+}
+.second .text {
+    color: black;
+}
 .info img {
     width: 100px;
     height: 100px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
 }
