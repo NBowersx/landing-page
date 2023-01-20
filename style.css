@@ -1,5 +1,5 @@
 * {
-    color: aliceblue;
+    
     margin: 0;
 }
 .logo {
@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 40px;
+    color: aliceblue;
 }
 
 ul {
@@ -31,6 +32,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 400px;
+    color: aliceblue;
     
 }
 button{
@@ -44,21 +46,20 @@ button{
 }
 
 .second {
-    background-color: #ce0808;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: black;
-    padding: 40px;
-
+    padding-bottom: 20px;
 }
 .second .info {
     color: black;
-    display: flex;
-    align-items: center;
+    display: flex;   
 }
 .container {
     display: flex;
+   gap: 60px;
 }
 
 .info img {
@@ -68,11 +69,16 @@ button{
 .info {
     display: flex;
     flex-direction: column;
+    
+}
+.text {
+    width: 100px;
+
 }
 .three {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 120px;
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: light italic;
@@ -83,8 +89,17 @@ button{
 }
 .four {
     background-color: blue;
-    margin: 20px;
+    color: #ffffff;
+    margin: 120px;
+    
 }
 .footer {
     background-color: #1f2937;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    padding: 15px;
+
 }
