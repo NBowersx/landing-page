@@ -38,6 +38,8 @@ button{
     background-color: #3882f6;
     width: 80px;
     border-radius: 5px;
+    color: #ffffff;
+    height: 20px;
 }
 .one img {
     height: 200px;
@@ -48,8 +50,6 @@ button{
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    flex-basis: 1;
-    justify-content: space-between;
     color: black;
     padding-bottom: 20px;
     width: 100%;
@@ -61,19 +61,21 @@ button{
 }
 
 .info img {
-    width: 100px;
-    height: 100px;
+    display: flex;
+    width: 300px;
+    height: 200px;
     border-radius: 5px;
 }
 .info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: green
-    
+    justify-content: space-between;  
 }
 .text {
-    width: 100px;
+    display: flex;
+    flex: 0 1 0;
+    width: 300px;
+    margin-bottom: 50px;
 
 }
 .three {
@@ -88,12 +90,17 @@ button{
 .three div, p {
     color: #1f2937;
 }
+p{
+    text-align: end;
+}
 .four {
     background-color: blue;
     color: #ffffff;
     margin: 120px;
     border-radius: 5px;
     height: 90px;
+    display: flex;
+    flex-direction: ;
 }
 .footer {
     background-color: #1f2937;
@@ -102,6 +109,7 @@ button{
     padding: 20px;
 
 }
+
 h2 {
     padding: 15px;
 
