@@ -1,6 +1,5 @@
 * {
-    
-    margin: 0;
+     margin: 0; 
 }
 .logo {
     font-size: 24px;
@@ -38,7 +37,7 @@ ul {
 button{
     background-color: #3882f6;
     width: 80px;
-
+    border-radius: 5px;
 }
 .one img {
     height: 200px;
@@ -49,26 +48,28 @@ button{
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex-basis: 1;
+    justify-content: space-between;
     color: black;
     padding-bottom: 20px;
-}
-.second .info {
-    color: black;
-    display: flex;   
+    width: 100%;
+    text-align: center;
 }
 .container {
     display: flex;
-   gap: 60px;
+    justify-content: space-evenly;
 }
 
 .info img {
     width: 100px;
     height: 100px;
+    border-radius: 5px;
 }
 .info {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    background-color: green
     
 }
 .text {
@@ -91,13 +92,15 @@ button{
     background-color: blue;
     color: #ffffff;
     margin: 120px;
-    
+    border-radius: 5px;
+    height: 90px;
 }
 .footer {
     background-color: #1f2937;
     color: #ffffff;
     text-align: center;
     padding: 20px;
+
 }
 h2 {
     padding: 15px;
