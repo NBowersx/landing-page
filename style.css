@@ -46,13 +46,21 @@ button{
 .second {
     background-color: #ce0808;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     color: black;
     padding: 40px;
 
 }
-.second .text {
+.second .info {
     color: black;
+    display: flex;
+    align-items: center;
 }
+.container {
+    display: flex;
+}
+
 .info img {
     width: 100px;
     height: 100px;
@@ -72,4 +80,11 @@ button{
 }
 .three div, p {
     color: #1f2937;
+}
+.four {
+    background-color: blue;
+    margin: 20px;
+}
+.footer {
+    background-color: #1f2937;
 }
