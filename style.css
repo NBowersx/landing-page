@@ -38,7 +38,11 @@ button{
     width: 80px;
 
 }
-img {
+.one img {
     height: 200px;
     width: 400px;
+}
+.info img {
+    width: 100px;
+    height: 100px;
 }
